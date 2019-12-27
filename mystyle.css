@@ -1,0 +1,126 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+.container
+{
+	width: 100%;
+	height: 180px;
+	background-color: white;
+	
+}
+.wraper
+{
+	width: 900px;
+	margin: auto;
+}
+.dark
+{
+	background-color: #1627CC;
+	height:40px;
+ }
+.light
+{
+  	background-color: #B0E2D2;
+}
+#logo_left
+{
+	 
+	display: inline-block;
+
+}
+#logo_right
+{
+	float: right;
+	margin-top: 60px;
+}
+#text_style
+{
+	height: 30px;
+	border-radius: 10px;
+
+}
+#button
+{
+	background-color: red;
+	color:white;
+	padding: 8px;
+	border-radius: 10px;
+	width: 80px; 
+	border: 1px solid red; 
+}
+#clear
+{
+ 	clear: both;
+}
+#menu ul
+{
+	list-style: none;
+	margin: auto;
+
+	
+}
+#menu ul li
+{
+	background-color: #065980;	 
+    width: 170px;
+    border: 1px solid black;
+	display: inline-block;
+	height:40px;
+   	line-height: 40px;
+	text-align: center;
+	position: relative;
+	border-radius: 10px;
+	margin: auto;
+	
+
+
+}
+#menu ul li a
+{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+#menu ul li a:hover
+{
+	background-color:#2208BD;
+	border-radius: 10px;
+}
+#menu ul ul
+{
+	position: absolute;
+	display: none;
+}
+#menu ul li:hover > ul
+{
+	display: block;
+
+}
+h3
+{
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+p
+{
+	text-align: justify;	
+}
+#div_left
+{
+	border:1px solid red;
+	width: 190px;
+	float:left;
+	margin-top: 25px;
+	margin-left: 5px;
+}
+#div_right
+{
+	border: 1px solid red;
+	width: 190px;
+	float: right;
+	margin-top: 25px;
+ 	margin-right: 5px;
+}
